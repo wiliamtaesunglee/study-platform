@@ -1,13 +1,15 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
 
-import logoImg from '../../assets/images/logo.svg';
-import backicon from '../../assets/images/icons/back.svg';
+import PageHeader from '../../components/PageHeader';
+
+import './styles.css';
 
 const TeacherList: React.FC = () => {
   return (
-    <div>
-      lista de professores
+    <div id='page-teacher-list' className='container'>
+      <PageHeader title='Estes são os proffys disponíveis.'>
+        teste
+      </PageHeader>
     </div>
   )
 };
